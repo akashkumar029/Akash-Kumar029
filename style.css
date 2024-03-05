@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* .logo{
+    font-family: "Ubuntu Mono", monospace;
+} */
+
+/* Navigation */
+.logo {
+  font-family: "Pacifico", cursive;
+}
+
+body {
+  font-family:  sans-serif;
+  background-color: rgb(195, 219, 224);
+}
+
+.header-container {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 18px;
+  background-color: #8ecae6;
+  border-bottom: 1px solid white;
+}
+
+/* .heading{
+    background-color: blue;
+} */
+/* 
+.nav-container{
+    background-color: yellow;
+} */
+
+.li-container {
+  display: flex;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: white;
+}
+
+/* Home */
+.img-container {
+  background-image: url(images/vh.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user-name {
+  font-size: 50px;
+}
+
+.user-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: right;
+  border: 10px solid rgb(202, 188, 253);
+  border-radius: 195px;
+
+}
+
+/* About Me */
+.second-user-img {
+  height: 300px;
+  width: 300px;
+  object-position: right;
+  object-fit: cover;
+  border: 9px solid black;
+  border-radius: 195px;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  font-size: 50px;
+}
+
+.img-about-container {
+  display: flex;
+}
+
+.about {
+  font-size: 20px;
+}
+
+.about-head {
+  border-left: 5px solid rgb(150, 81, 240);
+  margin: 0 0 8px 0;
+}
+
+.skill-head {
+  scroll-margin-top: 10px;
+}
+
+.margin-para {
+  margin-left: 11px;
+}
+
+.contact-icon {
+  width: 20px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.social-container {
+  margin-bottom: 5px;
+}
+.footer{
+  background-color: rgb(126, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.footer-para{
+  font-size: 35px;
+  font-weight: bold;
+}
